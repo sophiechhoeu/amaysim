@@ -1,0 +1,117 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap";
+
+.bg-orange {
+  background-color: #FF5500;
+
+}
+
+.text-white {
+  color: white;
+}
+
+.jumbotron {
+  background-color: #510063;
+  color: white;
+}
+
+.btn-lg{
+  border-color: #FF5500;
+  border-radius: 50px;
+  background-color: #FF5500;
+  margin-top: 10px;
+}
+
+h6{
+  color:#510063;
+}
+
+.card-one{
+  background-color: rgb(255, 85, 0);
+  border-radius: 20px 20px 0 0;
+  color: white;
+}
+
+.card-two{
+  background-color: rgb(255, 102, 0);
+  border-radius: 20px 20px 0 0;
+  color: white;
+
+}
+
+.card-three{
+  background-color: rgb(255, 119, 0);
+  border-radius: 20px 20px 0 0;
+  color: white;
+}
+
+.card{
+  border-radius: 20px;
+}
+
+.card-footer:last-child{
+  border-radius: 0 0 20px 20px;
+}
+
+.card-footer-1{
+  background-color:#e04b00;
+
+}
+
+.card-footer-2{
+  background-color: #e05a00;
+}
+
+.card-footer-3{
+  background-color: #e06900;
+}
+
+.card-block{
+  margin: 40%;
+}
+
+.card-container{
+  display: inline-block;
+  margin: 50px;
+}
+
+h2{
+  color:#510063;
+}
+
+.text-center{
+  background-color: rgb(255, 85, 0);
+  color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.btn-read{
+  border-radius: 20px;
+  background-color:#510063;
+  color:white;
+  border-color: #510063;
+}
+
+.col-title{
+color:rgb(255, 85, 0);
+}
+
+.tech-talk {
+  color:#510063;
+}
